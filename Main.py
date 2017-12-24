@@ -1,6 +1,8 @@
 import discord
-import dnd
+# import dnd
 import asyncio
+
+from Private import private_token
 
 ################################################################################
 # Commands the bot accepts:
@@ -23,7 +25,7 @@ import asyncio
 #   - Action point management - trip & knife, feint & knife, etc
 #   - Days passed - Auto manages food
 ################################################################################
-token = 'MzU2Njg3NzY4ODc0OTA5Njk2.DJfK7A.wP-d8W77T48EcoVfui3X6r2i_x0'
+token = private_token
 client = discord.Client()
 
 @client.event
